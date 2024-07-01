@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Name | Menu</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    .header{
+        color: white;
+        text-align: center;
+        font-size: 55px;
+        font-family: "Bebas Neue", sans-serif;
+        font-style: normal;
+
+    }
+    .container{
+        /* border: 10px solid white; */
+        width: 80%;
+        height: 700px;
+        margin: 0 auto;
+
+    }
+    .item{
+        width: 375px;
+        height: 350px;
+        background-color: whitesmoke;
+        padding: 1em;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-style: normal;
+        
+        
+    }
+    .container{
+        margin-top: 100px;
+        padding: 20px;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: center;
+        /* flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 1em; */
+        flex-wrap: wrap ;
+        /* overflow: hidden; */
+        height: auto;
+        gap: 1em;
+    }
+
+    
+    .small{
+        background-color: whitesmoke;
+        color: rgb(20, 20, 20);
+        margin-top: 50%;
+        height: auto;
+        opacity: 0;
+        
+        transition: opacity 0.5s ease-in-out, visibility 1.2s ease-in-out;
+        font-size: 17px;
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .item:hover .small{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .item-1{
+        background-image: url(burger.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+        
+        
+    }
+    .item-2{
+        background-image: url(pizza.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+    }
+    .item-3{
+        background-image: url(pasta.jpg);
+        background-size: cover;
+        background-position-y: 90% ;
+        color: white;
+        font-size: 35px;
+       
+
+    }
+    .item-4{
+        background-image: url(pancakes.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+        background-position-y: 110% ;
+    }
+    .item-5{
+        background-image: url(crepe.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+    }
+    .item-6{
+        background-image: url(eggs.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+    }
+    .item-7{
+        background-image: url(martini.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+        background-position-y: 60%;
+    }
+    .item-8{
+        background-image: url(cold\ coffee.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+        background-position-y: 50%;
+    }
+    .item-9{
+        background-image: url(peach.jpg);
+        background-size: cover;
+        color: white;
+        font-size: 35px;
+        background-position-y: 50%;
+    }
+    
+</style>
+<body style="background-color: black;">
+    <p class="header">Food Stash</p>
+    <div class="container">
+        <div class="item item-1">Chomp Bomb
+            <div class="small">Juicy chicken patty topped with melted cheddar, fresh lettuce, ripe tomato, pickles, and our special house sauce, all nestled in a toasted brioche bun.
+            </div>
+        </div>
+        <div class="item item-2">Flavour Affair
+            <div class="small">
+                Classic pizza topped with fresh mozzarella, ripe tomatoes, and fragrant basil, all on a crispy, stone-baked crust.</div>
+        </div>
+        <div class="item item-3">The Afterparty
+            <div class="small">Al dente pasta tossed in a rich, savory tomato sauce, topped with fresh Parmesan cheese and basil.</div>
+        </div>  
+        <div class="item item-4">The Fancake
+            <div class="small">Fluffy, golden pancakes served with a drizzle of maple syrup and a dollop of butter.</div>
+        </div>
+        <div class="item item-5">Crepe o'clock
+            <div class="small">Delicate, thin crepes filled with your choice of sweet or savory ingredients, perfect for any time of day.</div>
+        </div>
+        <div class="item item-6">Eggs Morning
+            <div class="small">Fluffy scrambled eggs paired with golden, crispy toast and served with grilled tomatoes on the side.</div>
+        </div>
+        <div class="item item-7">Ghana Blessing
+            <div class="small">A sophisticated blend of rich espresso, vodka, and coffee liqueur, shaken to perfection and served chilled.</div>
+        </div>
+        <div class="item item-8">Classic Cold Coffee
+            <div class="small">Refreshing cold coffee brewed to perfection, served over ice for a smooth and energizing drink.</div>
+        </div>
+        <div class="item item-9">Peach Party
+            <div class="small">A refreshing blend of juicy peaches and sparkling soda, garnished with a slice of fresh peach and a sprig of mint.</div>
+        </div>
+        
+
+
+    </div>
+    
+</body>
+</html>
